@@ -1,14 +1,15 @@
 <?php
 
-if ( ! function_exists('safe_clone')) {
+if ( ! function_exists('sclone')) {
     /**
-     * Clones a value if it is an object, returns the same value otherwise.
+     * Safely clones a value. If it is an object,
+     * it will be cloned, otherwise the same value will be returned.
      *
      * @param $value
      *
      * @return mixed
      */
-    function safe_clone($value) {
+    function sclone($value) {
         if (is_object($value)) {
             return clone $value;
         }

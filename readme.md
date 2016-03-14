@@ -10,7 +10,7 @@
 - [Installation](#installation)
 - [Introduction](#introduction)
 - [Functions](#functions)
-    - [safe_clone](#safe_clone)
+    - [sclone](#sclone)
 
 ## Installation
 
@@ -22,8 +22,8 @@ This tiny library provides various useful helper functions.
 
 ## Functions
 
-#### safe\_clone
+#### sclone
 
 Clones a value using the `clone` function if it is an object, simply returns the value otherwise.
 
-`mixed safe_clone(mixed $value)`
+`mixed sclone(mixed $value)`
