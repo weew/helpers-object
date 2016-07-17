@@ -1,9 +1,9 @@
 # Common php helpers
 
-[![Build Status](https://img.shields.io/travis/weew/php-helpers-common.svg)](https://travis-ci.org/weew/php-helpers-common)
-[![Test Coverage](https://img.shields.io/coveralls/weew/php-helpers-common.svg)](https://coveralls.io/github/weew/php-helpers-common)
-[![Version](https://img.shields.io/packagist/v/weew/php-helpers-common.svg)](https://packagist.org/packages/weew/php-helpers-common)
-[![Licence](https://img.shields.io/packagist/l/weew/php-helpers-common.svg)](https://packagist.org/packages/weew/php-helpers-common)
+[![Build Status](https://img.shields.io/travis/weew/helpers-object.svg)](https://travis-ci.org/weew/helpers-object)
+[![Test Coverage](https://img.shields.io/coveralls/weew/helpers-object.svg)](https://coveralls.io/github/weew/helpers-object)
+[![Version](https://img.shields.io/packagist/v/weew/helpers-object.svg)](https://packagist.org/packages/weew/helpers-object)
+[![Licence](https://img.shields.io/packagist/l/weew/helpers-object.svg)](https://packagist.org/packages/weew/helpers-object)
 
 ## Table of contents
 
@@ -14,16 +14,16 @@
 
 ## Installation
 
-`composer require weew/php-helpers-common`
+`composer require weew/helpers-object`
 
 ## Introduction
 
-This tiny library provides various useful helper functions.
+This tiny library provides various useful helper functions to deal with objects.
 
 ## Functions
 
 #### sclone
 
-Clones a value using the `clone` function if it is an object, simply returns the value otherwise.
+Safely clones a value using the `clone` function if it is an object, simply returns the value otherwise.
 
 `mixed sclone(mixed $value)`

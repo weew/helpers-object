@@ -5,7 +5,7 @@ namespace tests;
 use DateTime;
 use PHPUnit_Framework_TestCase;
 
-class CommonTest extends PHPUnit_Framework_TestCase {
+class ObjectTest extends PHPUnit_Framework_TestCase {
     function test_it_clones_an_object() {
         $date = new DateTime();
         $anotherDate = sclone($date);

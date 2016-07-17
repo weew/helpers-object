@@ -1,6 +1,6 @@
 {
-    "name": "weew/php-helpers-common",
-    "description": "Basic helpers for php.",
+    "name": "weew/helpers-object",
+    "description": "Collection of helper functions for objects.",
     "license": "MIT",
     "authors": [
         {
@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "files": [
-            "src/common.php"
+            "src/object.php"
         ]
     },
     "autoload-dev": {
